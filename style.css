@@ -1,0 +1,80 @@
+/* navbar style */
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .navbar li {
+    display: inline;
+  }
+  .navbar a {
+    padding: 8px 13px;
+    background-color:#ccc;
+    color:black;
+    border-radius: 10px;
+  }
+/* roboto font */
+  .body {
+    font-family: "Roboto"
+  }
+/* about style */
+.about-content {
+    display: flex;
+    margin-top: 20px;
+}
+.about-image {
+    margin-right: 30px;
+}
+/* work and resume style (same changes i will apply on both so i did them together) */
+#work,
+#resume {
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px ;
+}
+#work h2,
+#resume h2 {
+  color: red;
+}
+#resume h3 {
+  color: green;
+}
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+ul li {
+  margin: 5px 0;
+}
+/* contact style */
+#contact {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+  }
+  #contact h2 { color: red; }
+  #contact iframe {
+    height: 315px;
+    margin-bottom: 20px;
+  }
+  #contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  /* all of the following (contact label, contact input...) will have the same result so i did them together */
+  #contact label, #contact input[type="text"], #contact input[type="email"], #contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #contact button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

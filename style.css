@@ -43,9 +43,6 @@ ul {
   list-style: disc;
   margin-left: 20px;
 }
-ul li {
-  margin: 5px 0;
-}
 /* contact style */
 #contact {
     text-align: center;
@@ -68,7 +65,6 @@ ul li {
   #contact label, #contact input[type="text"], #contact input[type="email"], #contact textarea {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
   }
   #contact button {
@@ -76,5 +72,4 @@ ul li {
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    cursor: pointer;
   }
